@@ -1,0 +1,47 @@
+{
+	"name": "soduku",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"scripts": {
+		"test": "jest --watchAll --verbose --setupFilesAfterEnv ./src/test/setupTests.js",
+		"coverage": "jest --setupFilesAfterEnv ./src/test/setupTests.js --coverage --watchAll=false",
+		"dev": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
+		"build": "webpack --config config/webpack.config.prod.js"
+	},
+	"devDependencies": {
+		"@babel/core": "*",
+		"@babel/plugin-proposal-class-properties": "*",
+		"@babel/plugin-transform-runtime": "*",
+		"@babel/preset-env": "*",
+		"@babel/preset-react": "*",
+		"@testing-library/jest-dom": "*",
+		"@testing-library/react": "*",
+		"@testing-library/user-event": "*",
+		"babel-loader": "*",
+		"css-loader": "*",
+		"eslint": "*",
+		"eslint-plugin-react": "*",
+		"file-loader": "*",
+		"html-webpack-plugin": "*",
+		"jest": "*",
+		"netlify-cli": "*",
+		"style-loader": "*",
+		"url-loader": "*",
+		"webpack": "*",
+		"webpack-cli": "*",
+		"webpack-dev-server": "*"
+	},
+	"dependencies": {
+		"axios": "*",
+		"jquery": "^3.6.0",
+		"materialize-css": "*",
+		"npm": "*",
+		"react": "*",
+		"react-dom": "*",
+		"react-icons": "^4.4.0",
+		"react-router-dom": "*",
+		"update": "*"
+	}
+}
